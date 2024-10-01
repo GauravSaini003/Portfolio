@@ -37,6 +37,7 @@ I am a passionate MERN Full Stack Developer dedicated to transforming ideas into
     <img className="shadow-2xl shadow-cyan-500/50 border rounded-lg  md:h-[30rem]   transform  transition duration-500 md:hover:scale-110" src={Profile} alt="Profile Picture" />
 </div>
 </div>
+{/**This is the skill section  */}
 <Skills/>
 </div>
 

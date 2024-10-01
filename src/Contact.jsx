@@ -2,7 +2,7 @@ import React from "react";
 import LocationImG from "./assets/Map.png";
 import GmailImG from "./assets/GmailI.png";
 
-
+// Contact Details to connect
 const Contact =()=>{
     return(<>
 <div className="pt-28 ps-28 pb-12   " id="contact">

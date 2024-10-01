@@ -1,6 +1,6 @@
 const HamBuger = () => {
     const [isToggle, setIsToggle] = useState(false);
-  
+  // Functionality of a hamburger menu
     const isClick = () => {
       setIsToggle(!isToggle);
     };

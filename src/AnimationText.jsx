@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import React from "react";
- 
+ // Animation in the about section
 const MyComponent = () => {
   return (
     <TypeAnimation
