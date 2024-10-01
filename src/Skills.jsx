@@ -16,6 +16,7 @@ const Skills =()=>{
     return(
 
 <>
+
 <div className="flex md:flex-row flex-col   md:p-28 p-12 items-center  content-center ">
 <h1 className="font-semibold text-3xl text-gray-600 items-center  content-center">Tech Stack <span className="ms-6 font-semibold text-xl text-gray-500">|</span></h1>
 <div className="flex md:pt-0 pt-6 pb-6 items-center  content-center  transition duration-500 hover:scale-110 gap-2">

@@ -15,7 +15,7 @@ const Home =()=>{
 
 
 
-    <div className="font-bold text-4xl  ">
+    <div className="font-bold text-4xl ">
 Hello I m , <br />
 <span className=" font-bold text-7xl">Gaurav  <span className="text-sky-600">Saini</span></span>
 </div>
@@ -23,7 +23,7 @@ Hello I m , <br />
 <MyComponent />
 
 
-<h3 className="leading-relaxed  text-2xl pt-3 pb-3  text-black md:pe-24 ">
+<h3 className="leading-relaxed  text-2xl pt-3 pb-3   text-black md:pe-24 ">
 I am a passionate MERN Full Stack Developer dedicated to transforming ideas into elegant solutions. With strong problem-solving skills and a love for coding, I strive to create seamless user experiences. Let’s collaborate to build something amazing together!</h3>
 <div className="flex">
     <a className="text-5xl m-3" href="https://github.com/GauravSaini003" target="_blank"><FaGithub /></a>
@@ -32,11 +32,12 @@ I am a passionate MERN Full Stack Developer dedicated to transforming ideas into
 
 </div>
 </div>
-<span className=" md:w-28 w-3 h-full " ></span>
+<span className=" md:w-28 w-3 h-full "></span>
 <div className="grow md:shrink-0  ">
     <img className="shadow-2xl shadow-cyan-500/50 border rounded-lg  md:h-[30rem]   transform  transition duration-500 md:hover:scale-110" src={Profile} alt="Profile Picture" />
 </div>
 </div>
+{/**Skill section  */}
 <Skills/>
 </div>
 
