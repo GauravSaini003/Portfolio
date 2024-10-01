@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base {
+    html {
+      font-family: "Proxima Nova", system-ui, sans-serif;
+    }
+  }
+
+
+  body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: rgb(17 24 39); /* Background color for dark mode */
+  color: white; /* Default text color for dark mode */
+}
+
+.dark .text-element {
+  color: white; /* Specific text elements can also be targeted */
+}
+
+/* Optional: More specific styling for links, headers, etc. */
+.dark a {
+  color: lightgray; /* Link color in dark mode */
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: white; /* Headers color in dark mode */
+}
+ 
+.dark:bg-black {
+    background-color: black; /* This class applies when dark mode is active */
+}
