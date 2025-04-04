@@ -59,7 +59,7 @@ const Header = () => {
             </ScrollLink>
           </li>
           <li className="md:mr-5 mt-5 mb-5 md:pt-0 text-xl font-bold hover:text-sky-600 cursor-pointer md:ms-6" onClick={handleMenuItemClick}>
-            <a href="https://drive.google.com/file/d/1cbvzFtjFX4kXcH6WSaPzIkDLZzYyaWNq/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/1AnqLGwsA2y3mxSdAfgtqqhQ7_wgg3QuA/view?usp=sharing">Resume</a>
           </li>
         </ul>
   
